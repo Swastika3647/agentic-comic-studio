@@ -1,8 +1,6 @@
 import os
-
-# --- CRITICAL DEPLOYMENT FIX ---
-# Streamlit Cloud is read-only. We MUST tell LangFlow to use the /tmp folder
-# for its database, or it will crash with "unable to open database file".
+# --- DEPLOYMENT FIX ---
+# Forces LangFlow to use a writeable folder for its database
 os.environ["LANGFLOW_DIR"] = "/tmp/langflow_store"
 
 import streamlit as st
@@ -25,12 +23,12 @@ st.set_page_config(page_title="AI Comic Studio", page_icon="💥", layout="wide"
 @st.cache_resource
 def get_comic_font(size=40):
     font_name = "ComicNeue-Bold.ttf"
-    # Try to load from local file first
+    # Try local first
     if os.path.exists(font_name):
         try: return ImageFont.truetype(font_name, size)
         except: pass
-        
-    # If not found, download to /tmp (Writeable)
+    
+    # Try /tmp (for cloud)
     tmp_font_path = "/tmp/ComicNeue-Bold.ttf"
     if not os.path.exists(tmp_font_path):
         try:
@@ -45,20 +43,30 @@ def get_comic_font(size=40):
 
 # --- COMIC ENGINE ---
 def create_comic_panel(img_url, caption_text, panel_index=0):
-    # 1. FORCE VARIETY
-    seed = random.randint(0, 100000) + (panel_index * 555)
+    # 1. CLEAN & RANDOMIZE URL
+    # We strip old params and add a fresh seed to guarantee unique images
+    if "pollinations" in img_url:
+        img_url = img_url.split('?')[0] # Remove old query params
     
-    if not img_url or "example.com" in img_url or "placeholder" in img_url:
+    # Check for bad/fake links and regenerate
+    if not img_url or "example.com" in img_url or "placeholder" in img_url or not img_url.startswith("http"):
+        print(f"Fixing broken link for: {caption_text}")
         encoded_caption = urllib.parse.quote(caption_text + " comic book style")
-        img_url = f"https://image.pollinations.ai/prompt/{encoded_caption}?nologo=true&seed={seed}"
-    elif "pollinations.ai" in img_url:
-        if "?" in img_url: img_url += f"&seed={seed}"
-        else: img_url += f"?seed={seed}"
+        img_url = f"https://image.pollinations.ai/prompt/{encoded_caption}"
+    
+    # Add unique seed and settings
+    seed = random.randint(0, 100000) + (panel_index * 999)
+    final_url = f"{img_url}?nologo=true&seed={seed}&width=1024&height=1024"
 
-    # 2. DOWNLOAD
+    # 2. DOWNLOAD (With Browser Headers)
+    # This headers dict makes the request look like a real browser to avoid blocks
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
+    }
+
     for attempt in range(3):
         try:
-            response = requests.get(img_url, timeout=30) 
+            response = requests.get(final_url, headers=headers, timeout=15) 
             response.raise_for_status() 
             
             img = Image.open(BytesIO(response.content)).convert("RGB")
@@ -66,7 +74,7 @@ def create_comic_panel(img_url, caption_text, panel_index=0):
             target_height = 1024
             img = img.resize((target_width, target_height))
             
-            # 3. DRAW
+            # 3. DRAW CAPTION
             overlay = Image.new('RGBA', img.size, (0,0,0,0))
             draw = ImageDraw.Draw(overlay)
             font = get_comic_font(size=45)
@@ -75,10 +83,10 @@ def create_comic_panel(img_url, caption_text, panel_index=0):
             if not clean_caption: clean_caption = "..."
             lines = textwrap.wrap(clean_caption, width=40)
             
-            line_height = 55
-            box_height = (len(lines) * line_height) + 40
+            box_height = (len(lines) * 55) + 40
             box_y = target_height - box_height - 20
             
+            # Semi-transparent background for text
             draw.rectangle([(20, box_y), (target_width - 20, target_height - 20)], fill=(255, 255, 255, 230), outline="black", width=3)
             
             img = Image.alpha_composite(img.convert('RGBA'), overlay).convert('RGB')
@@ -90,13 +98,15 @@ def create_comic_panel(img_url, caption_text, panel_index=0):
                 text_width = bbox[2] - bbox[0]
                 x_pos = (target_width - text_width) / 2
                 draw.text((x_pos, text_y), line, font=font, fill="black")
-                text_y += line_height
+                text_y += 55
                 
             return ImageOps.expand(img, border=10, fill='black')
             
         except Exception as e:
             time.sleep(1)
-            if attempt == 2: return None
+            if attempt == 2: 
+                print(f"Failed to load: {final_url} | Error: {e}")
+                return None
 
 # --- UI ---
 st.title("💥 Agentic Comic Studio")
@@ -107,7 +117,7 @@ with st.sidebar:
     story = st.text_area("Next Episode Idea:", "She finds a glowing mysterious microchip.")
     generate_btn = st.button("✨ Filming New Episode", type="primary")
     
-    if st.button("🗑️ Clear History"):
+    if st.button("🗑️ Clear History (Fix Errors)"):
         st.session_state['episodes'] = []
         st.rerun()
 
