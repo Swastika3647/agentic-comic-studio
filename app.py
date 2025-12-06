@@ -1,10 +1,15 @@
+import os
+# --- DEPLOYMENT FIX ---
+# This forces LangFlow to use a local database file that Streamlit Cloud can write to.
+# This MUST be done before importing langflow!
+os.environ["LANGFLOW_DIR"] = "." 
+
 import streamlit as st
 from langflow.load import run_flow_from_json
 import re
 import requests
 import textwrap
 import time
-import os
 import urllib.parse
 import random 
 from PIL import Image, ImageOps, ImageDraw, ImageFont
@@ -29,24 +34,21 @@ def get_comic_font(size=40):
     try: return ImageFont.truetype(font_name, size)
     except: return ImageFont.load_default()
 
-# --- COMIC ENGINE (With Variety Enforcer) ---
+# --- COMIC ENGINE ---
 def create_comic_panel(img_url, caption_text, panel_index=0):
-    # 1. FORCE VARIETY: Add random seed to prevent duplicate images
+    # 1. FORCE VARIETY
     seed = random.randint(0, 100000) + (panel_index * 555)
     
-    # Check for fake links or missing links and regenerate if needed
     if not img_url or "example.com" in img_url or "placeholder" in img_url:
-        print(f"Auto-fixing broken link for: {caption_text}")
+        # Auto-fix fake links
         encoded_caption = urllib.parse.quote(caption_text + " comic book style")
         img_url = f"https://image.pollinations.ai/prompt/{encoded_caption}?nologo=true&seed={seed}"
     elif "pollinations.ai" in img_url:
-        # If it's already a valid link, append the seed to force it to be unique
-        if "?" in img_url:
-            img_url += f"&seed={seed}"
-        else:
-            img_url += f"?seed={seed}"
+        # Inject seed into existing link
+        if "?" in img_url: img_url += f"&seed={seed}"
+        else: img_url += f"?seed={seed}"
 
-    # 2. Try downloading (with Retries)
+    # 2. DOWNLOAD
     for attempt in range(3):
         try:
             response = requests.get(img_url, timeout=30) 
@@ -57,34 +59,24 @@ def create_comic_panel(img_url, caption_text, panel_index=0):
             target_height = 1024
             img = img.resize((target_width, target_height))
             
-            # Draw Overlay
+            # 3. DRAW
             overlay = Image.new('RGBA', img.size, (0,0,0,0))
             draw = ImageDraw.Draw(overlay)
             font = get_comic_font(size=45)
             
-            # Wrap Text
             clean_caption = caption_text.replace("*", "").replace('"', '').strip()
             if not clean_caption: clean_caption = "..."
             lines = textwrap.wrap(clean_caption, width=40)
             
-            # Box Dimensions
             line_height = 55
             box_height = (len(lines) * line_height) + 40
             box_y = target_height - box_height - 20
             
-            # Draw Semi-Transparent Box
-            draw.rectangle(
-                [(20, box_y), (target_width - 20, target_height - 20)], 
-                fill=(255, 255, 255, 230), 
-                outline="black", 
-                width=3
-            )
+            draw.rectangle([(20, box_y), (target_width - 20, target_height - 20)], fill=(255, 255, 255, 230), outline="black", width=3)
             
-            # Composite
             img = Image.alpha_composite(img.convert('RGBA'), overlay).convert('RGB')
             draw = ImageDraw.Draw(img)
             
-            # Draw Text
             text_y = box_y + 20
             for line in lines:
                 bbox = draw.textbbox((0, 0), line, font=font)
@@ -97,9 +89,7 @@ def create_comic_panel(img_url, caption_text, panel_index=0):
             
         except Exception as e:
             time.sleep(1)
-            if attempt == 2: 
-                print(f"Failed to load image: {img_url}")
-                return None
+            if attempt == 2: return None
 
 # --- UI ---
 st.title("💥 Agentic Comic Studio")
@@ -110,7 +100,6 @@ with st.sidebar:
     story = st.text_area("Next Episode Idea:", "She finds a glowing mysterious microchip.")
     generate_btn = st.button("✨ Filming New Episode", type="primary")
     
-    # CLEAR HISTORY BUTTON (Use this to fix broken state)
     if st.button("🗑️ Clear History (Fix Errors)"):
         st.session_state['episodes'] = []
         st.rerun()
@@ -123,7 +112,6 @@ if generate_btn:
         try:
             strict_prompt = f"""
             STORY: {story}
-            
             RULES:
             1. Create 3 panels.
             2. CALL 'generate_image' for EACH panel.
@@ -131,7 +119,6 @@ if generate_btn:
             PANEL 1
             Text: [Dialogue]
             ![Image]([URL])
-            
             PANEL 2
             Text: [Dialogue]
             ![Image]([URL])
@@ -155,21 +142,16 @@ if generate_btn:
             try: raw_text = result[0].outputs[0].results['message'].text
             except: raw_text = str(result)
             
-            # --- SUPER ROBUST PARSING ---
             panels = []
             chunks = re.split(r'(?:\*\*|#)?\s*PANEL\s+\d+[:\.]*\s*(?:\*\*|#)?', raw_text, flags=re.IGNORECASE)
             
             for chunk in chunks:
                 if not chunk.strip(): continue
-                
-                # Find Text
                 text_match = re.search(r'(?:Text|Caption|Dialogue)\s*[:\-]?\s*(.*?)(?=\n|!\[|http)', chunk, re.IGNORECASE | re.DOTALL)
                 caption = text_match.group(1).strip() if text_match else "..."
                 
-                # Find Image URL
                 img_match = re.search(r'(?:\!\[.*?\]\((.*?)\)|(https?://\S+))', chunk)
                 img_url = img_match.group(1) or img_match.group(2) if img_match else "https://example.com/placeholder.png"
-                
                 panels.append((img_url, caption))
             
             if panels:
@@ -188,13 +170,10 @@ if st.session_state['episodes']:
         cols = st.columns(len(ep['panels']))
         for idx, (url, text) in enumerate(ep['panels']):
             with cols[idx]:
-                # The Self-Healing function runs here with PANEL INDEX
                 final_img = create_comic_panel(url, text, panel_index=idx)
-                
                 if final_img:
                     st.image(final_img, use_container_width=True)
                 else:
-                    # Fallback UI so it doesn't look broken
                     st.error("Image unavailable")
                     st.markdown(f"[Try Link Manually]({url})")
         st.divider()
