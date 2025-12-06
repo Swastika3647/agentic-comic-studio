@@ -1,0 +1,211 @@
+
+
+==============================
+PANEL 1
+Text: "Hmm, let's see... How hard can baking a pizza be?"
+Image: ![Generated Image](https://oaidalleapiprodscus.blob.core.windows.net/private/org-PtGNKeA3O4dx0WSD39iY1g7D/user-9RNhabb9yopRiMJwoQ5X2HSA/img-DrYAA1ALg19NgmkOV5bBzwZD.png?st=2025-12-05T18%3A29%3A03Z&se=2025-12-05T20%3A29%3A03Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=f1dafa11-a0c2-4092-91d4-10981fbda051&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-12-05T19%3A05%3A41Z&ske=2025-12-06T19%3A05%3A41Z&sks=b&skv=2024-08-04&sig=oby3s3yM8VSfvtWvaUFE7Qj02QMxzXjNqSM1WMuyslY%3D)
+
+PANEL 2
+Text: "Oops! I think I left it in too long!"
+Image: ![Generated Image](https://oaidalleapiprodscus.blob.core.windows.net/private/org-PtGNKeA3O4dx0WSD39iY1g7D/user-9RNhabb9yopRiMJwoQ5X2HSA/img-kb106dhmgRBWZOyp7iFDn4om.png?st=2025-12-05T18%3A28%3A59Z&se=2025-12-05T20%3A28%3A59Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=77e5a8ec-6bd1-4477-8afc-16703a64f029&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-12-05T19%3A28%3A59Z&ske=2025-12-06T19%3A28%3A59Z&sks=b&skv=2024-08-04&sig=i5mDPT5oDvyzcPWqU7tGx/eGy5NRQTwokoQOnxx7tww%3D)
+
+==============================
+PANEL 1
+Text: "Initiating pizza baking sequence. Success is inevitable!"
+Image: ![Generated Image](https://oaidalleapiprodscus.blob.core.windows.net/private/org-PtGNKeA3O4dx0WSD39iY1g7D/user-9RNhabb9yopRiMJwoQ5X2HSA/img-WL3NWwnDgNvvWPPO8ASuWSz1.png?st=2025-12-05T18%3A33%3A17Z&se=2025-12-05T20%3A33%3A17Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=8b33a531-2df9-46a3-bc02-d4b1430a422c&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-12-05T17%3A11%3A39Z&ske=2025-12-06T17%3A11%3A39Z&sks=b&skv=2024-08-04&sig=qb8xE30JGmvk1kiHdxsZHeZ/oJreP44MGTUl5kiwq1M%3D)
+
+PANEL 2
+Text: "Temperature set to optimal. Commencing bake!"
+Image: ![Generated Image](https://oaidalleapiprodscus.blob.core.windows.net/private/org-PtGNKeA3O4dx0WSD39iY1g7D/user-9RNhabb9yopRiMJwoQ5X2HSA/img-aa90B9BAmGdKQznjPJHQcVZD.png?st=2025-12-05T18%3A33%3A17Z&se=2025-12-05T20%3A33%3A17Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=b1a0ae1f-618f-4548-84fd-8b16cacd5485&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-12-05T19%3A33%3A17Z&ske=2025-12-06T19%3A33%3A17Z&sks=b&skv=2024-08-04&sig=s7GpEBUitjnyfW5pbiLGv6xIslMDDsrHR9m2%2BaMzdCk%3D)
+
+PANEL 3
+Text: "Warning! Temperature exceeding safe limits!"
+Image: ![Generated Image](https://oaidalleapiprodscus.blob.core.windows.net/private/org-PtGNKeA3O4dx0WSD39iY1g7D/user-9RNhabb9yopRiMJwoQ5X2HSA/img-LZOzy09PTXM1jmS9aG8RtTKz.png?st=2025-12-05T18%3A33%3A14Z&se=2025-12-05T20%3A33%3A14Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=8b33a531-2df9-46a3-bc02-d4b1430a422c&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-12-05T18%3A40%3A53Z&ske=2025-12-06T18%3A40%3A53Z&sks=b&skv=2024-08-04&sig=xD6KAa2x1OCs6XQUoeToDH0NjXr1S2uhVmyFw8/jsS0%3D)
+
+PANEL 4
+Text: "Oh no! The pizza is burnt to a crisp!"
+Image: ![Generated Image](https://oaidalleapiprodscus.blob.core.windows.net/private/org-PtGNKeA3O4dx0WSD39iY1g7D/user-9RNhabb9yopRiMJwoQ5X2HSA/img-VPVYdA8Gpzx5LWJ8xnONShaA.png?st=2025-12-05T18%3A33%3A14Z&se=2025-12-05T20%3A33%3A14Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=8b33a531-2df9-46a3-bc02-d4b1430a422c&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-12-05T19%3A33%3A14Z&ske=2025-12-06T19%3A33%3A14Z&sks=b&skv=2024-08-04&sig=3NJSFrBBFuLmKi334jKaInjYL3fcvKuT%2BKMoR6ZBUV8%3D)
+
+==============================
+PANEL 1
+Text: "She gazes across the crowded room, her heart skipping a beat as she spots him."
+Image: ![Generated Image](https://oaidalleapiprodscus.blob.core.windows.net/private/org-PtGNKeA3O4dx0WSD39iY1g7D/user-9RNhabb9yopRiMJwoQ5X2HSA/img-iLNArt9guPbR3QmyMejxBduE.png?st=2025-12-05T18%3A35%3A54Z&se=2025-12-05T20%3A35%3A54Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=77e5a8ec-6bd1-4477-8afc-16703a64f029&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-12-05T19%3A34%3A44Z&ske=2025-12-06T19%3A34%3A44Z&sks=b&skv=2024-08-04&sig=Q3PeDRZBG/pynGyIaX27FoDZxzwW8GL9Zmy0NCq/oD4%3D)
+
+PANEL 2
+Text: "He turns, their eyes meet, and a warm smile spreads across his face."
+Image: ![Generated Image](https://oaidalleapiprodscus.blob.core.windows.net/private/org-PtGNKeA3O4dx0WSD39iY1g7D/user-9RNhabb9yopRiMJwoQ5X2HSA/img-pHbmWrfLOoPibbuB2F8srKpm.png?st=2025-12-05T18%3A36%3A12Z&se=2025-12-05T20%3A36%3A12Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=7daae675-7b42-4e2e-ab4c-8d8419a28d99&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-12-05T19%3A30%3A32Z&ske=2025-12-06T19%3A30%3A32Z&sks=b&skv=2024-08-04&sig=l2vBR/6Z2p8ORw9Oi/6u8Jc3N5S1Ad8eoagZLrgSKGM%3D)
+
+==============================
+PANEL 1
+Text: "The robot excitedly prepares to bake its first pizza, following the recipe step by step."
+Image: ![Generated Image](https://oaidalleapiprodscus.blob.core.windows.net/private/org-PtGNKeA3O4dx0WSD39iY1g7D/user-9RNhabb9yopRiMJwoQ5X2HSA/img-GaKah7rVU4j45oM2g77Wo1wb.png?st=2025-12-05T18%3A43%3A16Z&se=2025-12-05T20%3A43%3A16Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=ed3ea2f9-5e38-44be-9a1b-7c1e65e4d54f&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-12-05T19%3A43%3A16Z&ske=2025-12-06T19%3A43%3A16Z&sks=b&skv=2024-08-04&sig=JJ%2BJIn2nw0yH1kqxo2bw1Y/6VTmsvM1%2BVmPvKfUn4Kc%3D)
+
+PANEL 2
+Text: "Oops! The robot accidentally sets the oven temperature too high, and smoke starts to fill the kitchen."
+Image: ![Generated Image](https://oaidalleapiprodscus.blob.core.windows.net/private/org-PtGNKeA3O4dx0WSD39iY1g7D/user-9RNhabb9yopRiMJwoQ5X2HSA/img-tPYGu2hnCvx4oYc8rhaf1pq4.png?st=2025-12-05T18%3A43%3A14Z&se=2025-12-05T20%3A43%3A14Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=9346e9b9-5d29-4d37-a0a9-c6f95f09f79d&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-12-05T19%3A43%3A14Z&ske=2025-12-06T19%3A43%3A14Z&sks=b&skv=2024-08-04&sig=2ExEh9sUpWGeFi6rS9ERmttYcQTqfFDNN3HzNuxMw4c%3D)
+
+PANEL 3
+Text: "The robot opens the oven to find a charred, blackened pizza. It sighs in disappointment."
+Image: ![Generated Image](https://oaidalleapiprodscus.blob.core.windows.net/private/org-PtGNKeA3O4dx0WSD39iY1g7D/user-9RNhabb9yopRiMJwoQ5X2HSA/img-JHs86AziqNrTMhoAgaRTSwe9.png?st=2025-12-05T18%3A43%3A13Z&se=2025-12-05T20%3A43%3A13Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=f1dafa11-a0c2-4092-91d4-10981fbda051&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-12-05T19%3A36%3A45Z&ske=2025-12-06T19%3A36%3A45Z&sks=b&skv=2024-08-04&sig=N7W9uuL/qttRMJZPQaVNZ34QJXFVGLK/6v54ajM/kBg%3D)
+
+PANEL 4
+Text: "Determined to try again, the robot starts cleaning up, ready to learn from its mistakes."
+Image: ![Generated Image](https://oaidalleapiprodscus.blob.core.windows.net/private/org-PtGNKeA3O4dx0WSD39iY1g7D/user-9RNhabb9yopRiMJwoQ5X2HSA/img-AZhUJ6Palp2951cei0aukuKJ.png?st=2025-12-05T18%3A43%3A16Z&se=2025-12-05T20%3A43%3A16Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=f1dafa11-a0c2-4092-91d4-10981fbda051&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-12-05T19%3A43%3A16Z&ske=2025-12-06T19%3A43%3A16Z&sks=b&skv=2024-08-04&sig=Jg%2BXMIdP3mE30ctsjT5iP4f4TiRsR77X82YqgAL1Tec%3D)
+
+==============================
+PANEL 1
+Text: "The robot excitedly prepares to bake its first pizza."
+Image: ![Generated Image](https://oaidalleapiprodscus.blob.core.windows.net/private/org-PtGNKeA3O4dx0WSD39iY1g7D/user-9RNhabb9yopRiMJwoQ5X2HSA/img-HihDRx7YQFYGaNhWEB2DeqYf.png?st=2025-12-05T18%3A49%3A16Z&se=2025-12-05T20%3A49%3A16Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=77e5a8ec-6bd1-4477-8afc-16703a64f029&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-12-05T19%3A49%3A16Z&ske=2025-12-06T19%3A49%3A16Z&sks=b&skv=2024-08-04&sig=ib7zU%2B3kZdGDKIvxZWRHjxGnEbbnHnJmlK6NqmyyGWU%3D)
+
+PANEL 2
+Text: "Oops! The robot accidentally sets the oven too high."
+Image: ![Generated Image](https://oaidalleapiprodscus.blob.core.windows.net/private/org-PtGNKeA3O4dx0WSD39iY1g7D/user-9RNhabb9yopRiMJwoQ5X2HSA/img-gJsGeaw28ai5UfCUVZdDnewd.png?st=2025-12-05T18%3A49%3A14Z&se=2025-12-05T20%3A49%3A14Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=ed3ea2f9-5e38-44be-9a1b-7c1e65e4d54f&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-12-05T19%3A49%3A14Z&ske=2025-12-06T19%3A49%3A14Z&sks=b&skv=2024-08-04&sig=CFU8PYuCDIOj5ya88SPlbwmbX4o14qMfL0lj0OVDm40%3D)
+
+PANEL 3
+Text: "The pizza is burnt to a crisp, but the robot remains optimistic."
+Image: ![Generated Image](https://oaidalleapiprodscus.blob.core.windows.net/private/org-PtGNKeA3O4dx0WSD39iY1g7D/user-9RNhabb9yopRiMJwoQ5X2HSA/img-6SI3jmJh9ngVfANhR5QTtWii.png?st=2025-12-05T18%3A49%3A12Z&se=2025-12-05T20%3A49%3A12Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=7daae675-7b42-4e2e-ab4c-8d8419a28d99&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-12-05T19%3A46%3A49Z&ske=2025-12-06T19%3A46%3A49Z&sks=b&skv=2024-08-04&sig=ERXdB0jVJmyC1DVZuue0WBNrrr/a7f3TjX6G%2BlocUco%3D)
+
+==============================
+PANEL 1
+Text: "Alright, time to bake a delicious pizza! How hard can it be?"
+Image: ![Generated Image](https://oaidalleapiprodscus.blob.core.windows.net/private/org-PtGNKeA3O4dx0WSD39iY1g7D/user-9RNhabb9yopRiMJwoQ5X2HSA/img-Pv2GVGMsalhYX4snTYbpowx8.png?st=2025-12-05T18%3A53%3A27Z&se=2025-12-05T20%3A53%3A27Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=8b33a531-2df9-46a3-bc02-d4b1430a422c&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-12-05T16%3A50%3A56Z&ske=2025-12-06T16%3A50%3A56Z&sks=b&skv=2024-08-04&sig=nhmcYcN/TDSC67EUqol9BlHbVhwAS8Zqb4l00CMHAuo%3D)
+
+PANEL 2
+Text: "Oops! I think I set the oven too high..."
+Image: ![Generated Image](https://oaidalleapiprodscus.blob.core.windows.net/private/org-PtGNKeA3O4dx0WSD39iY1g7D/user-9RNhabb9yopRiMJwoQ5X2HSA/img-o6SfG77WxJQi5hUssZ6hjq3E.png?st=2025-12-05T18%3A53%3A28Z&se=2025-12-05T20%3A53%3A28Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=8b33a531-2df9-46a3-bc02-d4b1430a422c&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-12-05T19%3A53%3A28Z&ske=2025-12-06T19%3A53%3A28Z&sks=b&skv=2024-08-04&sig=vJcaLAbGVDiK0Dd3XPSiuJH8vwqsDEXi9gWKlJF9ZYo%3D)
+
+PANEL 3
+Text: "Well, I guess burnt pizza is a new flavor!"
+Image: ![Generated Image](https://oaidalleapiprodscus.blob.core.windows.net/private/org-PtGNKeA3O4dx0WSD39iY1g7D/user-9RNhabb9yopRiMJwoQ5X2HSA/img-eH8MKeLDbx2IYxVzWza20Oy3.png?st=2025-12-05T18%3A53%3A27Z&se=2025-12-05T20%3A53%3A27Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=b1a0ae1f-618f-4548-84fd-8b16cacd5485&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-12-05T19%3A53%3A27Z&ske=2025-12-06T19%3A53%3A27Z&sks=b&skv=2024-08-04&sig=Ni4GJ9vZvAhy9aUsCKn5Qi29NvOmIlbiwjqSuwGfLac%3D)
+
+==============================
+PANEL 1
+Text: "Wow, this campus is huge! I hope I can find my way around."
+Image: ![Generated Image](https://oaidalleapiprodscus.blob.core.windows.net/private/org-PtGNKeA3O4dx0WSD39iY1g7D/user-9RNhabb9yopRiMJwoQ5X2HSA/img-MqYOoQ0cHVkFcuFQz4kqEsi2.png?st=2025-12-05T18%3A55%3A28Z&se=2025-12-05T20%3A55%3A28Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=f1dafa11-a0c2-4092-91d4-10981fbda051&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-12-05T19%3A34%3A00Z&ske=2025-12-06T19%3A34%3A00Z&sks=b&skv=2024-08-04&sig=HkdNnd1K/P%2BMqspgBltYX6S0i8DPrEoujZckmxrYZUY%3D)
+
+PANEL 2
+Text: "Hey there! You look a bit lost. Need some help?"
+Image: ![Generated Image](https://oaidalleapiprodscus.blob.core.windows.net/private/org-PtGNKeA3O4dx0WSD39iY1g7D/user-9RNhabb9yopRiMJwoQ5X2HSA/img-q4SKt7z7oN2dqNUGotA2BcAI.png?st=2025-12-05T18%3A55%3A29Z&se=2025-12-05T20%3A55%3A29Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=ed3ea2f9-5e38-44be-9a1b-7c1e65e4d54f&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-12-05T19%3A55%3A29Z&ske=2025-12-06T19%3A55%3A29Z&sks=b&skv=2024-08-04&sig=vGQpv832jY81KoEsZtFfuOjdO7KvASuAXJUZf2m/NNE%3D)
+
+PANEL 3
+Text: "That would be great, thanks! I'm trying to find the library."
+Image: ![Generated Image](https://oaidalleapiprodscus.blob.core.windows.net/private/org-PtGNKeA3O4dx0WSD39iY1g7D/user-9RNhabb9yopRiMJwoQ5X2HSA/img-0WzAVvIeAseZCISPuBxefThI.png?st=2025-12-05T18%3A55%3A42Z&se=2025-12-05T20%3A55%3A42Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=8b33a531-2df9-46a3-bc02-d4b1430a422c&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-12-05T19%3A55%3A42Z&ske=2025-12-06T19%3A55%3A42Z&sks=b&skv=2024-08-04&sig=WH9Q7S7vxgPT1xuWOg9gTOyq7MgtC6FHHcjOMU2%2B76M%3D)
+
+==============================
+PANEL 1
+Text: "Alright, time to bake a delicious pizza! How hard can it be?"
+Image: ![Generated Image](https://oaidalleapiprodscus.blob.core.windows.net/private/org-PtGNKeA3O4dx0WSD39iY1g7D/user-9RNhabb9yopRiMJwoQ5X2HSA/img-PNOkhMx78KqX99mgW1cKe3h4.png?st=2025-12-05T19%3A03%3A41Z&se=2025-12-05T21%3A03%3A41Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=b1a0ae1f-618f-4548-84fd-8b16cacd5485&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-12-05T08%3A28%3A41Z&ske=2025-12-06T08%3A28%3A41Z&sks=b&skv=2024-08-04&sig=T53MZG%2BD2fE188hp%2BZkvt7zoYbBcpVH6pr66WtbCY1s%3D)
+
+PANEL 2
+Text: "Oops! I think I set the oven too high..."
+Image: ![Generated Image](https://oaidalleapiprodscus.blob.core.windows.net/private/org-PtGNKeA3O4dx0WSD39iY1g7D/user-9RNhabb9yopRiMJwoQ5X2HSA/img-uIPEBNUGy9NQT4KSSPrrIQkC.png?st=2025-12-05T19%3A03%3A43Z&se=2025-12-05T21%3A03%3A43Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=b1a0ae1f-618f-4548-84fd-8b16cacd5485&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-12-05T20%3A03%3A43Z&ske=2025-12-06T20%3A03%3A43Z&sks=b&skv=2024-08-04&sig=fGYeRp059ysxPvgPHQVpcwFqDG4rSTCF0OQPX4qSsf0%3D)
+
+PANEL 3
+Text: "Well, I guess burnt pizza is a new flavor!"
+Image: ![Generated Image](https://oaidalleapiprodscus.blob.core.windows.net/private/org-PtGNKeA3O4dx0WSD39iY1g7D/user-9RNhabb9yopRiMJwoQ5X2HSA/img-ExRQQ2Gg5kfWjybXvmVyvwc2.png?st=2025-12-05T19%3A03%3A41Z&se=2025-12-05T21%3A03%3A41Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=8b33a531-2df9-46a3-bc02-d4b1430a422c&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-12-05T17%3A11%3A06Z&ske=2025-12-06T17%3A11%3A06Z&sks=b&skv=2024-08-04&sig=7mtGAkoeQg%2BkFijA%2B8Oxr3kmzdf7vedalTJ0zgTjoH0%3D)
+
+==============================
+PANEL 1
+Text: "The night sky is so beautiful tonight, isn't it?"
+Image: ![Generated Image](https://oaidalleapiprodscus.blob.core.windows.net/private/org-PtGNKeA3O4dx0WSD39iY1g7D/user-9RNhabb9yopRiMJwoQ5X2HSA/img-PgF1NHuFg0ZW5pzZE6COTfGS.png?st=2025-12-05T19%3A08%3A23Z&se=2025-12-05T21%3A08%3A23Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=8b33a531-2df9-46a3-bc02-d4b1430a422c&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-12-05T19%3A34%3A50Z&ske=2025-12-06T19%3A34%3A50Z&sks=b&skv=2024-08-04&sig=/FROsfwj7HucJzExaEtctzrYHNr1Nx4CVeTs%2BKmjGGE%3D)
+
+PANEL 2
+Text: "Yes, it's like the stars are dancing just for us."
+Image: ![Generated Image](https://oaidalleapiprodscus.blob.core.windows.net/private/org-PtGNKeA3O4dx0WSD39iY1g7D/user-9RNhabb9yopRiMJwoQ5X2HSA/img-u7Wbx3evcqvcRZyI3oTBmm1y.png?st=2025-12-05T19%3A08%3A20Z&se=2025-12-05T21%3A08%3A20Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=f1dafa11-a0c2-4092-91d4-10981fbda051&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-12-05T20%3A08%3A20Z&ske=2025-12-06T20%3A08%3A20Z&sks=b&skv=2024-08-04&sig=rXKTfqAH9tNTugA0Rqn87KUrSn57zsWW3EjD4jos/HQ%3D)
+
+PANEL 3
+Text: "In this moment, it's just you and me, and the magic of the night."
+Image: ![Generated Image](https://oaidalleapiprodscus.blob.core.windows.net/private/org-PtGNKeA3O4dx0WSD39iY1g7D/user-9RNhabb9yopRiMJwoQ5X2HSA/img-SDxqqYVjF09T2su4ZDcqwCaw.png?st=2025-12-05T19%3A08%3A21Z&se=2025-12-05T21%3A08%3A21Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=7daae675-7b42-4e2e-ab4c-8d8419a28d99&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-12-05T20%3A08%3A21Z&ske=2025-12-06T20%3A08%3A21Z&sks=b&skv=2024-08-04&sig=3d9xmO8mGY6YgtnF0DCFfzK%2BEshhlBEty3CWzELak%2Bs%3D)
+
+==============================
+PANEL 1
+Text: "The night sky is so beautiful tonight, isn't it?"
+Image: ![Generated Image](https://oaidalleapiprodscus.blob.core.windows.net/private/org-PtGNKeA3O4dx0WSD39iY1g7D/user-9RNhabb9yopRiMJwoQ5X2HSA/img-3RXYwI3wldRi1iDBzVaUzMaj.png?st=2025-12-06T05%3A44%3A55Z&se=2025-12-06T07%3A44%3A55Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=77e5a8ec-6bd1-4477-8afc-16703a64f029&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-12-06T06%3A44%3A55Z&ske=2025-12-07T06%3A44%3A55Z&sks=b&skv=2024-08-04&sig=Yh%2B7MBhZH2cdy0LswgIM2xae1FqTds9yejvPwIb1CeQ%3D)
+
+PANEL 2
+Text: "Yes, it's like the stars are dancing just for us."
+Image: ![Generated Image](https://oaidalleapiprodscus.blob.core.windows.net/private/org-PtGNKeA3O4dx0WSD39iY1g7D/user-9RNhabb9yopRiMJwoQ5X2HSA/img-xGR4H5HAMmRJzROL1ISRiU0e.png?st=2025-12-06T05%3A44%3A54Z&se=2025-12-06T07%3A44%3A54Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=8b33a531-2df9-46a3-bc02-d4b1430a422c&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-12-06T06%3A44%3A54Z&ske=2025-12-07T06%3A44%3A54Z&sks=b&skv=2024-08-04&sig=5mk7qd7fFc6DfhnU9hIr5S4jtrOTLyMDxgOqRO2bXqw%3D)
+
+PANEL 3
+Text: "In this moment, it's just you and me, and the magic of the night."
+Image: ![Generated Image](https://oaidalleapiprodscus.blob.core.windows.net/private/org-PtGNKeA3O4dx0WSD39iY1g7D/user-9RNhabb9yopRiMJwoQ5X2HSA/img-MZudR6ayoSu0gWXF8ILRMSh1.png?st=2025-12-06T05%3A44%3A55Z&se=2025-12-06T07%3A44%3A55Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=77e5a8ec-6bd1-4477-8afc-16703a64f029&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-12-06T06%3A44%3A55Z&ske=2025-12-07T06%3A44%3A55Z&sks=b&skv=2024-08-04&sig=2stNPMz7vQDUbIjN519D%2BDbEOXc6ern3S44T/I7u7YQ%3D)
+
+==============================
+PANEL 1
+Text: "The night sky is so beautiful tonight, isn't it?"
+Image: ![Generated Image](https://oaidalleapiprodscus.blob.core.windows.net/private/org-PtGNKeA3O4dx0WSD39iY1g7D/user-9RNhabb9yopRiMJwoQ5X2HSA/img-Jq3ZhurjGhYG1Pc6suw37kVG.png?st=2025-12-06T05%3A51%3A14Z&se=2025-12-06T07%3A51%3A14Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=b1a0ae1f-618f-4548-84fd-8b16cacd5485&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-12-06T06%3A51%3A14Z&ske=2025-12-07T06%3A51%3A14Z&sks=b&skv=2024-08-04&sig=tRapo1kNrW2Vmoog7W/CBG/%2Bd1/lSJdpBYTGFRFTI1o%3D)
+
+PANEL 2
+Text: "Yes, it's like the stars are dancing just for us."
+Image: ![Generated Image](https://oaidalleapiprodscus.blob.core.windows.net/private/org-PtGNKeA3O4dx0WSD39iY1g7D/user-9RNhabb9yopRiMJwoQ5X2HSA/img-B6kPOp1qbAg30nXNcaXfSIaR.png?st=2025-12-06T05%3A51%3A13Z&se=2025-12-06T07%3A51%3A13Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=77e5a8ec-6bd1-4477-8afc-16703a64f029&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-12-06T06%3A51%3A13Z&ske=2025-12-07T06%3A51%3A13Z&sks=b&skv=2024-08-04&sig=RbK6DFwRS2fyR9Ez5dk26W5KoPa51%2BWhlZ8fX7k5sUM%3D)
+
+PANEL 3
+Text: "In this moment, it's just you, me, and the stars."
+Image: ![Generated Image](https://oaidalleapiprodscus.blob.core.windows.net/private/org-PtGNKeA3O4dx0WSD39iY1g7D/user-9RNhabb9yopRiMJwoQ5X2HSA/img-VeGGsozWeNDAzTFn64BsyZn8.png?st=2025-12-06T05%3A51%3A13Z&se=2025-12-06T07%3A51%3A13Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=b1a0ae1f-618f-4548-84fd-8b16cacd5485&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-12-06T02%3A29%3A40Z&ske=2025-12-07T02%3A29%3A40Z&sks=b&skv=2024-08-04&sig=UWwTx4ok%2BQd7ucI9UqZjpLlR1y15Ul9vSb4nKsz7j2s%3D)
+
+==============================
+PANEL 1
+Text: "The night is perfect, isn't it?"
+Image: ![Generated Image](https://oaidalleapiprodscus.blob.core.windows.net/private/org-PtGNKeA3O4dx0WSD39iY1g7D/user-9RNhabb9yopRiMJwoQ5X2HSA/img-nU67WjNEoYGf5iIgzJrOw3Nb.png?st=2025-12-06T05%3A58%3A59Z&se=2025-12-06T07%3A58%3A59Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=7daae675-7b42-4e2e-ab4c-8d8419a28d99&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-12-06T06%3A47%3A15Z&ske=2025-12-07T06%3A47%3A15Z&sks=b&skv=2024-08-04&sig=xyWqfmIHhEqs19SSpw7VdWJox0UMjdxeKn4/gvGqf/0%3D)
+
+PANEL 2
+Text: "Shall we dance?"
+Image: ![Generated Image](https://oaidalleapiprodscus.blob.core.windows.net/private/org-PtGNKeA3O4dx0WSD39iY1g7D/user-9RNhabb9yopRiMJwoQ5X2HSA/img-LH9wLFtytpGaEqM7TJP8Jcnj.png?st=2025-12-06T05%3A59%3A03Z&se=2025-12-06T07%3A59%3A03Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=ed3ea2f9-5e38-44be-9a1b-7c1e65e4d54f&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-12-06T06%3A59%3A03Z&ske=2025-12-07T06%3A59%3A03Z&sks=b&skv=2024-08-04&sig=YuWU3KTaJgyLcoSv/Ct7joh0KohQMOmiGiTc5xeMeLA%3D)
+
+PANEL 3
+Text: "I could get lost in your eyes forever."
+Image: ![Generated Image](https://oaidalleapiprodscus.blob.core.windows.net/private/org-PtGNKeA3O4dx0WSD39iY1g7D/user-9RNhabb9yopRiMJwoQ5X2HSA/img-Ccw0aq6NRKAXSLfgjCXFkKFH.png?st=2025-12-06T05%3A58%3A59Z&se=2025-12-06T07%3A58%3A59Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=f1dafa11-a0c2-4092-91d4-10981fbda051&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-12-06T06%3A39%3A51Z&ske=2025-12-07T06%3A39%3A51Z&sks=b&skv=2024-08-04&sig=1ykVpfJD2uPR7H3tcs8jlqxLYKlcZ31vfzLGhDtr78k%3D)
+
+PANEL 4
+Text: "This moment feels like magic."
+Image: ![Generated Image](https://oaidalleapiprodscus.blob.core.windows.net/private/org-PtGNKeA3O4dx0WSD39iY1g7D/user-9RNhabb9yopRiMJwoQ5X2HSA/img-Gy7JtRtnNDM38HJGpVzwz6vB.png?st=2025-12-06T05%3A59%3A04Z&se=2025-12-06T07%3A59%3A04Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=77e5a8ec-6bd1-4477-8afc-16703a64f029&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-12-06T06%3A59%3A04Z&ske=2025-12-07T06%3A59%3A04Z&sks=b&skv=2024-08-04&sig=5PvgNQF7Cp/EEcil%2Btl85eftId3yQpTgV2Sd2phia2Q%3D)
+
+PANEL 5
+Text: "Together, we can reach the stars."
+Image: ![Generated Image](https://oaidalleapiprodscus.blob.core.windows.net/private/org-PtGNKeA3O4dx0WSD39iY1g7D/user-9RNhabb9yopRiMJwoQ5X2HSA/img-71z0GrlY2Qw9eU0thbm5FhX5.png?st=2025-12-06T05%3A58%3A58Z&se=2025-12-06T07%3A58%3A58Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=7daae675-7b42-4e2e-ab4c-8d8419a28d99&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-12-06T06%3A58%3A58Z&ske=2025-12-07T06%3A58%3A58Z&sks=b&skv=2024-08-04&sig=aEKydFErRJgktoDRuWjSicS5Lqr71zs49CXqV0tUaiQ%3D)
+
+==============================
+PANEL 1
+Text: "The night is perfect, isn't it?"
+Image: ![Generated Image](https://oaidalleapiprodscus.blob.core.windows.net/private/org-PtGNKeA3O4dx0WSD39iY1g7D/user-9RNhabb9yopRiMJwoQ5X2HSA/img-UcCi2LV92MujYsgQt5mnF8Dg.png?st=2025-12-06T06%3A00%3A54Z&se=2025-12-06T08%3A00%3A54Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=b1a0ae1f-618f-4548-84fd-8b16cacd5485&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-12-06T01%3A15%3A54Z&ske=2025-12-07T01%3A15%3A54Z&sks=b&skv=2024-08-04&sig=gr3JOtZadMjeVE4nM2DA07n9k6i7Drnmw44JwMZSTH4%3D)
+
+PANEL 2
+Text: "Yes, it's like the stars are dancing just for us."
+Image: ![Generated Image](https://oaidalleapiprodscus.blob.core.windows.net/private/org-PtGNKeA3O4dx0WSD39iY1g7D/user-9RNhabb9yopRiMJwoQ5X2HSA/img-agUdBjVWMrykpxKrGEw3yKmV.png?st=2025-12-06T06%3A00%3A56Z&se=2025-12-06T08%3A00%3A56Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=9346e9b9-5d29-4d37-a0a9-c6f95f09f79d&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-12-06T07%3A00%3A56Z&ske=2025-12-07T07%3A00%3A56Z&sks=b&skv=2024-08-04&sig=Ovlwj0Y7kLfSLXXi6LfVVfZ3E6b6yXlimDLOa1qQ%2BbM%3D)
+
+PANEL 3
+Text: "Shall we join them?"
+Image: ![Generated Image](https://oaidalleapiprodscus.blob.core.windows.net/private/org-PtGNKeA3O4dx0WSD39iY1g7D/user-9RNhabb9yopRiMJwoQ5X2HSA/img-tYWx8LVpunbqQNEAH3gIzxf5.png?st=2025-12-06T06%3A00%3A56Z&se=2025-12-06T08%3A00%3A56Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=ed3ea2f9-5e38-44be-9a1b-7c1e65e4d54f&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-12-06T07%3A00%3A56Z&ske=2025-12-07T07%3A00%3A56Z&sks=b&skv=2024-08-04&sig=ULlsyF4LKkRvygQoZKNX53eD19/Dna1W2tjQwnJjeYc%3D)
+
+PANEL 4
+Text: "I feel like we're in a dream."
+Image: ![Generated Image](https://oaidalleapiprodscus.blob.core.windows.net/private/org-PtGNKeA3O4dx0WSD39iY1g7D/user-9RNhabb9yopRiMJwoQ5X2HSA/img-z0SDBDOzVuxIAN3vYiIVkerW.png?st=2025-12-06T06%3A00%3A55Z&se=2025-12-06T08%3A00%3A55Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=8b33a531-2df9-46a3-bc02-d4b1430a422c&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-12-06T07%3A00%3A55Z&ske=2025-12-07T07%3A00%3A55Z&sks=b&skv=2024-08-04&sig=JCgKlpWwjKnbc9xWIjzb911VUyZriFGqqECkt6E9KA4%3D)
+
+PANEL 5
+Text: "As long as I'm with you, I never want to wake up."
+Image: ![Generated Image](https://oaidalleapiprodscus.blob.core.windows.net/private/org-PtGNKeA3O4dx0WSD39iY1g7D/user-9RNhabb9yopRiMJwoQ5X2HSA/img-B9uOZwmR6DrYLEApWzy8wdKU.png?st=2025-12-06T06%3A01%3A00Z&se=2025-12-06T08%3A01%3A00Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=77e5a8ec-6bd1-4477-8afc-16703a64f029&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-12-06T07%3A01%3A00Z&ske=2025-12-07T07%3A01%3A00Z&sks=b&skv=2024-08-04&sig=O%2BrO1SXCp50XYrQVg9/3k390p322quQAnr%2BVCAgnlAs%3D)
+
+PANEL 6
+Text: "Forever under the stars, just you and me."
+Image: ![Generated Image](https://oaidalleapiprodscus.blob.core.windows.net/private/org-PtGNKeA3O4dx0WSD39iY1g7D/user-9RNhabb9yopRiMJwoQ5X2HSA/img-K3hxwQRq1iknWJhjiRr2yVhA.png?st=2025-12-06T06%3A00%3A56Z&se=2025-12-06T08%3A00%3A56Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=9346e9b9-5d29-4d37-a0a9-c6f95f09f79d&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-12-06T07%3A00%3A56Z&ske=2025-12-07T07%3A00%3A56Z&sks=b&skv=2024-08-04&sig=K6KJO6nq1LxEdg7aS0gDIdnu10jqrZTVC5XSTFOhQrc%3D)
+
+==============================
+Panel 1: She found a glowing microchip in a dark alleyway.
+![Panel 1](https://example.com/panel1.png)
+Panel 2: She picked up the microchip and examined it.
+![Panel 2](https://example.com/panel2.png)
+Panel 3: She looked up, wondering what this microchip could be and where it came from.
+![Panel 3](https://example.com/panel3.png)
+
+==============================
+Panel 1
+Text: "Whoa, what's this?" 
+![Panel 1](https://example.com/panel1.png)
+
+Panel 2
+Text: "It’s humming..." 
+![Panel 2](https://example.com/panel2.png)
+
+Panel 3
+Text: "I think it just unlocked something!" 
+![Panel 3](https://example.com/panel3.png)
