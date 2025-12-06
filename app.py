@@ -1,8 +1,9 @@
 import os
-# --- DEPLOYMENT FIX ---
-# This forces LangFlow to use a local database file that Streamlit Cloud can write to.
-# This MUST be done before importing langflow!
-os.environ["LANGFLOW_DIR"] = "." 
+
+# --- CRITICAL DEPLOYMENT FIX ---
+# Streamlit Cloud is read-only. We MUST tell LangFlow to use the /tmp folder
+# for its database, or it will crash with "unable to open database file".
+os.environ["LANGFLOW_DIR"] = "/tmp/langflow_store"
 
 import streamlit as st
 from langflow.load import run_flow_from_json
@@ -24,14 +25,22 @@ st.set_page_config(page_title="AI Comic Studio", page_icon="💥", layout="wide"
 @st.cache_resource
 def get_comic_font(size=40):
     font_name = "ComicNeue-Bold.ttf"
-    if not os.path.exists(font_name):
+    # Try to load from local file first
+    if os.path.exists(font_name):
+        try: return ImageFont.truetype(font_name, size)
+        except: pass
+        
+    # If not found, download to /tmp (Writeable)
+    tmp_font_path = "/tmp/ComicNeue-Bold.ttf"
+    if not os.path.exists(tmp_font_path):
         try:
             url = "https://github.com/google/fonts/raw/main/ofl/comicneue/ComicNeue-Bold.ttf"
             response = requests.get(url)
-            with open(font_name, "wb") as f:
+            with open(tmp_font_path, "wb") as f:
                 f.write(response.content)
         except: pass
-    try: return ImageFont.truetype(font_name, size)
+    
+    try: return ImageFont.truetype(tmp_font_path, size)
     except: return ImageFont.load_default()
 
 # --- COMIC ENGINE ---
@@ -40,11 +49,9 @@ def create_comic_panel(img_url, caption_text, panel_index=0):
     seed = random.randint(0, 100000) + (panel_index * 555)
     
     if not img_url or "example.com" in img_url or "placeholder" in img_url:
-        # Auto-fix fake links
         encoded_caption = urllib.parse.quote(caption_text + " comic book style")
         img_url = f"https://image.pollinations.ai/prompt/{encoded_caption}?nologo=true&seed={seed}"
     elif "pollinations.ai" in img_url:
-        # Inject seed into existing link
         if "?" in img_url: img_url += f"&seed={seed}"
         else: img_url += f"?seed={seed}"
 
@@ -100,7 +107,7 @@ with st.sidebar:
     story = st.text_area("Next Episode Idea:", "She finds a glowing mysterious microchip.")
     generate_btn = st.button("✨ Filming New Episode", type="primary")
     
-    if st.button("🗑️ Clear History (Fix Errors)"):
+    if st.button("🗑️ Clear History"):
         st.session_state['episodes'] = []
         st.rerun()
 
